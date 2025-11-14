@@ -10,7 +10,7 @@ let volume : number = 1000;
 
 // PROCESS
 // calculate sideLength of cube
-const sideLength : number = Math.cbrt(volume);
+let sideLength : number = Math.cbrt(volume);
 
 // OUTPUT
 // display the result
